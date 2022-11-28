@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+body {
+  font-family: R;
+}
+.profile {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+h3 {
+  display: flex;
+  background-color: pink;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Italic";
+}
+.movie-container {
+  width: 340px;
+  height: min-content;
+  background-color: white;
+  box: shadow 4px;
+}
+.movie-spec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.movie-poster {
+  width: 330px;
+  height: 500px;
+  object-fit: cover;
+}
+.movie-rating {
+  font-size: 15px;
+}
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-around;
+}
+.movie-description {
+  font-family: sans-serif;
+  text-align: left;
+  justify-content: center;
+  margin: 0 auto;
+  display: block;
+  margin-block-start: 1em;
+}
+.Counter-button-container {
+  text-align: left;
+  margin-top: 2em;
+}
+.Counter-button {
+  gap: 10px;
+  justify-content: space-between;
+}
+.movie-spec-trailer {
+  padding: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 250px;
+  margin-top: 0 auto;
+}
+.movie-description-trailer {
+  font-family: "times new roman";
+}
+.toggle-button {
+  display: flex;
+}
+.movie-addition {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 16px;
+  gap: 10px;
+}
+.Delete-button{
+  
+}
